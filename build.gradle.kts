@@ -61,10 +61,10 @@ val templateSettings = object : BlahajSettings() {
         if (etfVersion != null) deps.modImplementation(modrinth("entitytexturefeatures", etfVersion))
         if (dynFPSVersion != null) deps.modImplementation(modrinth("dynamic-fps", dynFPSVersion))
 
-        deps.modImplementation("toni.sodiumoptionsapi:${mod.loader}-${mod.mcVersion}:1.0.9")
+        deps.modImplementation("maven.modrinth:sodium-options-api:${mod.loader}-${mod.mcVersion}-1.0.9")
 
         if (mod.loader + "-" + mod.mcVersion != "neoforge-1.21.4")
-            deps.modImplementation("toni.txnilib:${mod.loader}-${mod.mcVersion}:1.0.21")
+            deps.modImplementation("maven.modrinth:txnilib:${mod.loader}-${mod.mcVersion}-1.0.21")
 
         deps.runtimeOnly("net.lostluma:battery:1.3.0")
     }
