@@ -16,7 +16,7 @@ val templateSettings = object : BlahajSettings() {
             "fabric-1.20.1" -> "X2NBK99f"
             "neoforge-1.21.4" -> "dYsCCt6Z"
             "neoforge-1.21.1" -> "Z0UKemxw"
-            "forge-1.20.1" -> "3.3.9"
+            "forge-1.20.1" -> "3.3.9-forge-1.20.1"
             else -> null
         }
 
@@ -26,7 +26,7 @@ val templateSettings = object : BlahajSettings() {
             "fabric-1.20.1" -> "WvkMQbYb"
             "neoforge-1.21.4" -> "bejTYsON"
             "neoforge-1.21.1" -> "jmfAD9oz"
-            "forge-1.20.1" -> "7.2.4"
+            "forge-1.20.1" -> "7.2.4-forge-1.20.1"
             else -> null
         }
 
