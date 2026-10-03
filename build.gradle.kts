@@ -142,7 +142,7 @@ val templateSettings = object : BlahajSettings {
 plugins {
 	`maven-publish`
 	application
-	id("toni.blahaj") version "1.0.16"
+	id("toni.blahaj")
 	kotlin("jvm")
 	kotlin("plugin.serialization")
 	id("dev.kikugie.j52j") version "1.0"
