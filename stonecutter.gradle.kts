@@ -35,4 +35,4 @@ stonecutter registerChiseled tasks.register("chiseledPublishMaven", stonecutter.
     ofTask("publish")
 }
 
-stonecutter.automaticPlatformConstants = true
+//stonecutter.automaticPlatformConstants = true
